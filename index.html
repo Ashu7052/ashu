@@ -3,9 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .contact-info {
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section {
+            list-style-type:none;
+            margin-bottom: 20px;
+        }
+        .skills, .projects {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            margin-bottom: 10px;
+        }
+        .divider {
+            height: 1px;
+            background: #ccc;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <div class="container">
+        <h1>Ashutosh Singh</h1>
+        <div class="contact-info">
+            <p>BTech Data Science | 2nd Year | NIET College</p>
+            <p>Email: ashusinghlko2004@gmail.com | Phone: 7052360261</p>
+        </div>
+        
+        <div class="section">
+            <hr>
+            <h2>Profile Summary</h2>
+            <hr>
+            <p>A passionate Data Science student with strong experience in Data Structures and Algorithms, Python, Java, and web development. Currently learning Django, organizing coding events, and working on various projects like diabetes prediction and healthcare solutions.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <hr>
+            <p>NIET College, Greater Noida (2023 - Present)<br>BTech in Data Science (2nd Year)</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <hr>
+            <ul class="skills">
+                <li>Data Structures & Algorithms (Java, Python)</li>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Django, GitHub, Git</li>
+                <li>Data Science, Machine Learning</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <hr>
+            <ul class="projects">
+                <li><strong>AYUSH Medicinal Plants Project:</strong> A visual interactive project to showcase medicinal plants and engage users with an AI assistant for query-solving.</li>
+
+                <li><strong>Diabetes Prediction:</strong> Worked on creating and deploying a machine learning model to predict diabetes, integrated into a healthcare website.</li>
+
+                <li><strong>Hackathon - Healthcare Solution:</strong> Participated in HackFest 2024, created a website for personalized diet and exercise plans with integrated diabetes prediction.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Experience</h2>
+            <hr>
+            <ul>
+                <li><strong>Event Organizer - Web Weave Challenge:</strong> Hosting a coding event for teaching competitive programming and introducing students to GitHub and open-source development.</li>
+                <li><strong>Competitive Programming Instructor:</strong> Conducted coding workshops focused on competitive programming, helping students enhance their problem-solving skills.</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+    </div>
 </body>
 </html>
